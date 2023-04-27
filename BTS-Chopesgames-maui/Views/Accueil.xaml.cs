@@ -1,10 +1,10 @@
-﻿namespace BTS_Chopesgames_maui;
+﻿namespace BTS_Chopesgames_maui.Views;
 
-public partial class MainPage : ContentPage
+public partial class Accueil : ContentPage
 {
 	int count = 0;
 
-	public MainPage()
+	public Accueil()
 	{
 		InitializeComponent();
 	}

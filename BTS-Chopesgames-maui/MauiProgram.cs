@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using BTS_Chopesgames_maui.Views;
+using Microsoft.Extensions.Logging;
 
 namespace BTS_Chopesgames_maui;
 
@@ -15,8 +16,10 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
+        //builder.Services.AddSingleton<Accueil>();
+
 #if DEBUG
-		builder.Logging.AddDebug();
+        builder.Logging.AddDebug();
 #endif
 
 		return builder.Build();
