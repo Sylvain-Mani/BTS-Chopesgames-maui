@@ -53,4 +53,10 @@
 		<PackageReference Include="MySql.Data" Version="8.0.33" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Views\Accueil.xaml.cs">
+	    <DependentUpon>Accueil.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
 </Project>
